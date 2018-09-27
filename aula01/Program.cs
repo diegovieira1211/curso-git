@@ -10,6 +10,7 @@ namespace curso {
 
             X = new Triangulo();
             Y = new Triangulo();
+			
 
             X.a = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             X.b = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
