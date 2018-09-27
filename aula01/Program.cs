@@ -19,7 +19,6 @@ namespace curso {
             Y.c = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             areaX = X.area();
-
             areaY = Y.area();
 
             Console.WriteLine("AREA DO TRIANGULO X: " + areaX.ToString("F4", CultureInfo.InvariantCulture));
